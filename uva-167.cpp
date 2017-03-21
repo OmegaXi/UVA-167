@@ -15,7 +15,7 @@ void search(int cur, int d)
 	}
 	else
 		for(int i=0;i<8;i++)
-{
+		{
 		int ok=1;
 		c[cur]=i;//尝试把第cur行的皇后放在第i列
 		for(int j=0;j<cur;j++)//检查是否与之前的皇后冲突
